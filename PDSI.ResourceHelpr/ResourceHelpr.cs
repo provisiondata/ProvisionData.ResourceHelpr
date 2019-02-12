@@ -1,4 +1,4 @@
-﻿namespace PDSI.ResourceHelper
+﻿namespace PDSI.ResourceHelpr
 {
     using System;
     using System.Collections.Generic;
@@ -10,7 +10,7 @@
     /// Resource Helper
     /// </summary>
     [DebuggerStepThrough]
-    public static class RH // ResourceHelper
+    public static class RH // ResourceHelpr
     {
         private static readonly IDictionary<String, String> Cache = new Dictionary<String, String>();
 
@@ -61,7 +61,7 @@
                 }
                 catch (Exception ex)
                 {
-                    throw new ApplicationException("ResourceHelper.GetString('" + resource + "') failed to load the resource code from " + type.AssemblyQualifiedName, ex);
+                    throw new ApplicationException("ResourceHelpr.GetString('" + resource + "') failed to load the resource code from " + type.AssemblyQualifiedName, ex);
                 }
             }
 
