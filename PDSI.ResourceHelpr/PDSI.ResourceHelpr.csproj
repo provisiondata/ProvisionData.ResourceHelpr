@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>0.0.0.1</Version>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <InformationalVersion>0.0.0.1</InformationalVersion>
+    <PackageVersion>0.0.0.1</PackageVersion>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>PDSI.ResourceHelpr</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+    <Authors>Doug Wilson</Authors>
+    <Description>Reads Strings and Streams from local Assemblies</Description>
+    <Copyright>2019 Provision Data Systems Inc.</Copyright>
+    <RepositoryType>Git</RepositoryType>
+    <RepositoryUrl>https://github.com/provisiondata/pdsi.resource.helpr</RepositoryUrl>
+    <PackageTags>Resource</PackageTags>
+    <Company>Provision Data Systems Inc.</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyName>PDSI.ResourceHelpr</AssemblyName>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
