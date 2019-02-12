@@ -6,8 +6,11 @@
     using System.IO;
     using System.Reflection;
 
+    /// <summary>
+    /// Resource Helper
+    /// </summary>
     [DebuggerStepThrough]
-    internal static class RH // ResourceHelper
+    public static class RH // ResourceHelper
     {
         private static readonly IDictionary<String, String> Cache = new Dictionary<String, String>();
 
